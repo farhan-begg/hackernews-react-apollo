@@ -59,6 +59,7 @@ const Login = () => {
     onCompleted: ({ signup }) => {
       localStorage.setItem(AUTH_TOKEN, signup.token);
       history.push('/');
+      
     }
   });
 
